@@ -44,7 +44,7 @@ export PATH=${PATH}:/usr/local/mysql/bin
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # Git GPG signing
-export GPG_TTY=$(tty)
+export GPG_TTY=`tty`
 
 # CBC library
 export PMIP_CBC_LIBRARY="/Users/mario/.cbc/dist/lib/libCbc.dylib"
