@@ -53,9 +53,10 @@ export GPG_TTY=`tty`
 export PMIP_CBC_LIBRARY="/Users/mario/.cbc/dist/lib/libCbc.dylib"
 
 # Alias for Vulkan compilation
-alias gvk="~/Code/Other/ARMMoltenVKGuide/vkcompile.sh"
-export DYLD_LIBRARY_PATH=/Users/mario/VulkanSDK/1.3.275.0/macOS/lib
-
+alias gvk="~/Documents/Code/Other/ARMMoltenVKGuide/vkcompile.sh"
+export DYLD_LIBRARY_PATH=/Users/mario/VulkanSDK/1.3.280.1/macOS/lib
+export VK_ICD_FILENAMES=/Users/mario/VulkanSDK/1.3.280.1/macOS/share/vulkan/icd.d/MoltenVK_icd.json
+export VK_LAYER_PATH=/Users/mario/VulkanSDK/1.3.280.1/macOS/share/vulkan/explicit_layer.d
 
 # Delve setup (Go debugger)
 export PATH="/Users/mario/go/bin:$PATH"
