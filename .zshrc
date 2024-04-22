@@ -21,6 +21,9 @@ export DEFAULT_USER='$USER'
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 
+# Shorthand for Code directory
+alias code="cd /Users/mario/Documents/Code"
+
 # Alias for Python3
 alias python="python3"
 
