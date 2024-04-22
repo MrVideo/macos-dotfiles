@@ -56,8 +56,6 @@ export PMIP_CBC_LIBRARY="/Users/mario/.cbc/dist/lib/libCbc.dylib"
 alias gvk="~/Code/Other/ARMMoltenVKGuide/vkcompile.sh"
 export DYLD_LIBRARY_PATH=/Users/mario/VulkanSDK/1.3.275.0/macOS/lib
 
-# ghcup for Haskell
-[ -f "/Users/mario/.ghcup/env" ] && source "/Users/mario/.ghcup/env" # ghcup-env
 
 # Delve setup (Go debugger)
 export PATH="/Users/mario/go/bin:$PATH"
