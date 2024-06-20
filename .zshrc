@@ -41,10 +41,6 @@ export PATH="$PATH:/usr/local/texlive/2020/bin/x86_64-darwin"
 # Pandoc MD2PDF custom script
 alias mdpdf='~/.scripts/pd-pdf.sh'
 
-# Neovim alias
-alias vim="nvim"
-alias v="nvim"
-
 # MySQL Shell
 export PATH=${PATH}:/usr/local/mysql/bin
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
