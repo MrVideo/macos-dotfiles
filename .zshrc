@@ -24,6 +24,9 @@ export PATH="/opt/homebrew/sbin:$PATH"
 # Shorthand for Code directory
 alias code="cd /Users/mario/Documents/Code"
 
+# Shorthand for my blog
+alias blog="cd /Users/mario/Documents/Code/Websites/boredom-blog"
+
 # Alias for Python3
 alias python="python3"
 
