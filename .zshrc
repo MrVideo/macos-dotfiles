@@ -59,3 +59,6 @@ export VK_LAYER_PATH=/Users/mario/VulkanSDK/1.3.280.1/macOS/share/vulkan/explici
 
 # Delve setup (Go debugger)
 export PATH="/Users/mario/go/bin:$PATH"
+
+# FLC ACSE setup
+alias mace="~/Documents/Code/Other/acse-master/bin/mace"
