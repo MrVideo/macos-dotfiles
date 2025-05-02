@@ -26,6 +26,10 @@ alias code="cd /Users/mario/Documents/Code"
 
 # Shorthand for my blog
 alias blog="cd /Users/mario/Documents/Code/Websites/boredom-blog"
+alias hugo="hugo --cleanDestinationDir && hugo server --disableFastRender"
+
+# Shorthand for iCloud docs
+alias icloud="cd '/Users/mario/Library/Mobile Documents/com~apple~CloudDocs'"
 
 # Alias for Python3
 alias python="python3"
@@ -49,16 +53,21 @@ export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 export GPG_TTY=`tty`
 
 # CBC library
-export PMIP_CBC_LIBRARY="/Users/mario/.cbc/dist/lib/libCbc.dylib"
+# export PMIP_CBC_LIBRARY="/Users/mario/.cbc/dist/lib/libCbc.dylib"
 
 # Alias for Vulkan compilation
-alias gvk="~/Documents/Code/Other/ARMMoltenVKGuide/vkcompile.sh"
-export DYLD_LIBRARY_PATH=/Users/mario/VulkanSDK/1.3.280.1/macOS/lib
-export VK_ICD_FILENAMES=/Users/mario/VulkanSDK/1.3.280.1/macOS/share/vulkan/icd.d/MoltenVK_icd.json
-export VK_LAYER_PATH=/Users/mario/VulkanSDK/1.3.280.1/macOS/share/vulkan/explicit_layer.d
+# alias gvk="~/Documents/Code/Other/ARMMoltenVKGuide/vkcompile.sh"
+# export DYLD_LIBRARY_PATH=/Users/mario/VulkanSDK/1.3.280.1/macOS/lib
+# export VK_ICD_FILENAMES=/Users/mario/VulkanSDK/1.3.280.1/macOS/share/vulkan/icd.d/MoltenVK_icd.json
+# export VK_LAYER_PATH=/Users/mario/VulkanSDK/1.3.280.1/macOS/share/vulkan/explicit_layer.d
+# export CPLUS_INCLUDE_PATH="/opt/homebrew/include:/Users/mario/VulkanSDK/1.3.280.1/macOS/include"
+# export LIBRARY_PATH="/opt/homebrew/lib:/Users/mario/VulkanSDK/1.3.280.1/macOS/lib"
 
 # Delve setup (Go debugger)
 export PATH="/Users/mario/go/bin:$PATH"
 
-# FLC ACSE setup
-alias mace="~/Documents/Code/Other/acse-master/bin/mace"
+# Apache Spark setup
+# export SPARK_MASTER_HOST=127.0.0.1
+
+# Alias SSH to Kitten SSH
+alias ssh="kitten ssh"
