@@ -8,3 +8,5 @@
 	gpgsign = true
 [gpg]
 	program = /opt/homebrew/bin/gpg
+[core]
+	excludesfile = ~/.gitignore_global
