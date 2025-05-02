@@ -1,2 +1,5 @@
 # Alias to Application Support [iTerm2]
 .config/iterm2/AppSupport
+
+# Kitty backup file
+.config/kitty/kitty.conf.bak
